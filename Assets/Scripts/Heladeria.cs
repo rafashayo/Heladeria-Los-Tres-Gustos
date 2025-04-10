@@ -22,17 +22,17 @@ public class Heladeria : MonoBehaviour
 
         if (sabor == "CHO")
         {
-            // 2 pesos el gramo
-            precioFinal = gramos * 2;
+            // 0.5 pesos el gramo
+            precioFinal = gramos / 2;
             Debug.Log("El precio final es de $" + precioFinal);
         }
         else if (sabor == "DDL")
         {
-            precioFinal = gramos * 2;
+            precioFinal = gramos / 2;
             Debug.Log("El precio final es de $" + precioFinal);
         } else if (sabor == "FRU")
         {
-            precioFinal = gramos * 2;
+            precioFinal = gramos / 2;
             precioDescontado = precioFinal * 0.9f;
             Debug.Log("El precio final es de $" + precioDescontado);
         }
